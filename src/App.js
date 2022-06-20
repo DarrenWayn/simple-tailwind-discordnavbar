@@ -1,9 +1,10 @@
 import React from 'react'
+import Sidebar from './components/Sidebar'
 
 const App = () => {
   return (
-    <div className='text-green'>
-
+    <div>
+      <Sidebar />
     </div>
   )
 }
